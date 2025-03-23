@@ -105,7 +105,3 @@ def get_all_channel_data():
 
         all_videos.extend(videos)
     return pd.DataFrame(all_videos)
-
-
-
-
