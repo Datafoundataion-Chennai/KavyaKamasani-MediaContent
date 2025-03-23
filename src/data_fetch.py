@@ -1,7 +1,7 @@
 import requests
 import time
 import pandas as pd
-from config import API_KEY, CHANNELS
+from src.config import API_KEY, CHANNELS
 
 def get_channel_statistics(channel_id):
     url = "https://www.googleapis.com/youtube/v3/channels"
