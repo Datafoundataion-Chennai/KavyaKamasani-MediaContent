@@ -1,6 +1,6 @@
 import os
-import requests
-import pandas as pd
+import requests # type: ignore
+import pandas as pd # type: ignore
 import time
 from config import API_KEY, CHANNELS
 
